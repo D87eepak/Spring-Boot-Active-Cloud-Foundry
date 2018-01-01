@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-boot-prime
+  path: target\CloudFoundry.jar
+  domain: cfapps.io
+  memory: 712M
+  instances: 1
